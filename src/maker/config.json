@@ -1,0 +1,84 @@
+﻿{
+  "maker": {
+    "symbols": {
+      "XTZ/USDC": {
+        "symbol": "XTZ/USDC",
+        "sourceSymbol": "XTZ/USDT",
+        "bids": {
+          "enabled": true,
+          "spreadInPercents": 0.1,
+          "limitCount": 10,
+          "limitDistanceInPercents": 0.2,
+          "qty": 200000
+        },
+        "asks": {
+          "enabled": true,
+          "spreadInPercents": 0.1,
+          "limitCount": 10,
+          "limitDistanceInPercents": 0.2,
+          "qty": 200000
+        },
+        "modifySpreadInPercents": 0.0,
+        "contractAddress": "0xA86F0AD9b353BF0De47DC6F367fdEc669D92F6fB",
+        "network": "Etherlink",
+        "pricePrecision": 4
+      },
+      "BTC/USDC": {
+        "symbol": "BTC/USDC",
+        "sourceSymbol": "BTC/USDT",
+        "bids": {
+          "enabled": true,
+          "spreadInPercents": 0.05,
+          "limitCount": 10,
+          "limitDistanceInPercents": 0.2,
+          "qty": 15000
+        },
+        "asks": {
+          "enabled": true,
+          "spreadInPercents": 0.05,
+          "limitCount": 10,
+          "limitDistanceInPercents": 0.2,
+          "qty": 15000
+        },
+        "modifySpreadInPercents": 0.0,
+        "contractAddress": "0x46FbD14B11891100f25A7b543bDFe68fF95A277f",
+        "network": "Etherlink",
+        "pricePrecision": 0
+      },
+      "ETH/USDC": {
+        "symbol": "ETH/USDC",
+        "sourceSymbol": "ETH/USDT",
+        "bids": {
+          "enabled": true,
+          "spreadInPercents": 0.05,
+          "limitCount": 10,
+          "limitDistanceInPercents": 0.2,
+          "qty": 30000
+        },
+        "asks": {
+          "enabled": true,
+          "spreadInPercents": 0.05,
+          "limitCount": 10,
+          "limitDistanceInPercents": 0.2,
+          "qty": 30000
+        },
+        "modifySpreadInPercents": 0.0,
+        "contractAddress": "0x811b18B8957a4c275948353aEFc6C3E9d62a8680",
+        "network": "Etherlink",
+        "pricePrecision": 1
+      }
+    },
+    "networks": {
+      "Etherlink": {
+        "rpcNode": "https://node.ghostnet.etherlink.com",
+        "chainId": 128123
+      }
+    },
+    "tokens": {
+      "XTZ": "0xB1Ea698633d57705e93b0E40c1077d46CD6A51d8",
+      "USDC": "0x9626cC8790c547779551B5948029a4f646853F91",
+      "BTC": "0x92d81a25F6f46CD52B8230ef6ceA5747Bc3826Db",
+      "ETH": "0x8DEF68408Bc96553003094180E5C90d9fe5b88C1"
+    }
+  }
+}
